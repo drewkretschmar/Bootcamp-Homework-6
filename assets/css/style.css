@@ -1,0 +1,10 @@
+#main {
+    display:flex;
+}
+
+header {
+    width:100%;
+    text-align:center;
+    background-color:aquamarine;
+    height:75px;
+}
