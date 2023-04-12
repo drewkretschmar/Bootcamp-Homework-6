@@ -5,6 +5,20 @@
 header {
     width:100%;
     text-align:center;
-    background-color:aquamarine;
+    background-color:rgb(106, 213, 231);
     height:75px;
+    font-size:50px;
+    padding-top:10px;
+    font-weight:bolder;
+
+}
+
+.test {
+    border:solid 2px;
+    margin:10px;
+    padding:5px;
+}
+
+.search {
+    margin:2px;
 }
