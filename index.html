@@ -23,9 +23,10 @@
             <div class="test">
     
                 <h2 class="search">Search for a City:</h2>
-                <input type="text" placeholder="City Name" class="col-12 search" id="input">
-                <input type="button" value="Search" class="col-12 search" id="searchbutton">
-    
+                <form>
+                    <input type="text" onblur=cityTest() placeholder="City Name" class="col-12 search" id="input">
+                    <input type="button" onclick=runForecast() value="Search" class="col-12 search" id="searchbutton">
+                </form>
             </div>
     
             <div class="test">
@@ -46,38 +47,7 @@
     
             <div class="test">
                 <p id="title">5 day forecast</p>
-                <div id="forecast">
-                    <div class="fdf">day1
-                        <p id="date"></p>
-                        <p id="temp">Temp:</p>
-                        <p id="wind">Wind:</p>
-                        <p id="humidity">Humidity:</p>
-                    </div>
-                    <div class="fdf">day2
-                        <p id="date"></p>
-                        <p id="temp">Temp:</p>
-                        <p id="wind">Wind:</p>
-                        <p id="humidity">Humidity:</p>
-                    </div>
-                    <div class="fdf">day3
-                        <p id="date"></p>
-                        <p id="temp">Temp:</p>
-                        <p id="wind">Wind:</p>
-                        <p id="humidity">Humidity:</p>
-                    </div>
-                    <div class="fdf">day4
-                        <p id="date"></p>
-                        <p id="temp">Temp:</p>
-                        <p id="wind">Wind:</p>
-                        <p id="humidity">Humidity:</p>
-                    </div>
-                    <div class="fdf">day5
-                        <p id="date"></p>
-                        <p id="temp">Temp:</p>
-                        <p id="wind">Wind:</p>
-                        <p id="humidity">Humidity:</p>
-                    </div>
-                </div>
+                <div id="forecast"></div>
             </div>
     
         </main>
