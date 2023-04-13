@@ -21,4 +21,21 @@ header {
 
 .search {
     margin:2px;
+    width:90%;
+}
+
+#forecast {
+    display:flex;
+}
+
+#title {
+    margin-bottom:10px;
+    padding-top:5px;
+}
+
+.fdf {
+    border:solid 2px;
+    margin-right:10px;
+    width:20%;
+    height:100px;
 }
