@@ -1,5 +1,14 @@
 var searchButton = document.getElementById('searchbutton');
 var date = document.getElementById('date');
+var citySearch = document.getElementById('input')
+
+searchButton.addEventListener("click", function(event) {
+    event.preventDefault();
+
+    var cityName = input.value.trim();
+    localStorage.setItem("City", JSON.stringify(cityName));
+    console.log('test');
+});
 
 function test() {
     console.log('test');
