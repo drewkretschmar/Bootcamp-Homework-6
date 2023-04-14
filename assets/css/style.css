@@ -39,3 +39,8 @@ header {
     width:20%;
     height:100px;
 }
+
+.forecast {
+    width:20%;
+    margin:10px;
+}

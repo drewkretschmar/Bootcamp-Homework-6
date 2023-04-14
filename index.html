@@ -24,12 +24,12 @@
     
                 <h2 class="search">Search for a City:</h2>
                 <form>
-                    <input type="text" onblur=cityTest() placeholder="City Name" class="col-12 search" id="input">
+                    <input type="text" onblur=cityTest() onsubmit=runForecast() placeholder="City Name" class="col-12 search" id="input">
                     <input type="button" onclick=runForecast() value="Search" class="col-12 search" id="searchbutton">
                 </form>
             </div>
     
-            <div class="test">
+            <div class="test" id="history">
                 <p>Search History</p>
             </div>
     
@@ -37,7 +37,7 @@
     
         <main class="col-9">
     
-            <div class="test">
+            <div class="test" id="current">
                 <p id="cityname">City</p>
                 <p id="date"></p>
                 <p id="temp">Temp:</p>
@@ -46,7 +46,7 @@
             </div>
     
             <div class="test">
-                <p id="title">5 day forecast</p>
+                <p id="title">5 Day Forecast</p>
                 <div id="forecast"></div>
             </div>
     
